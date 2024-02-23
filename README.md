@@ -7,3 +7,5 @@
  - Execute trading strategies based on predefined parameters and artificial intelligence 
  - Use uniswap v3 to swap tokens and provide liquidity on decentralized exchanges 
  - Customize the user interface with css and responsive design
+
+#kbir-dev
