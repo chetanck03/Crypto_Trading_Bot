@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../Global/Footer';
+import { filterMatches } from 'web3modal';
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
                     <div className='item'>
                       <a>
                         <span className='icon'>
-                          <img src='img/lighticon/light-19.png' className='fn__svg' alt="" />
+                          <img src='img/lighticon/light-19.png' className='fn__svg invert' alt="" />
                         </span>
                         <h2 className='title'>Buy Any Token !!</h2>
                         <p className='desc'>This field of AI combines deep learning algorithms and generative models to create new images that resemble real-world photographs of exhibit creative and imaginative qualities.
@@ -35,7 +36,7 @@ const Home = () => {
                     <div className='item'>
                       <a>
                         <span className='icon'>
-                          <img src='img/lighticon/light-16.png' className='fn__svg' alt="" />
+                          <img src='img/lighticon/light-16.png' className='fn__svg invert' alt="" />
                         </span>
                         <h2 className='title'>Sell Any Token !!</h2>
                         <p className='desc'>An Al chatbot,short for artificial intelligence chatbot, is a computer program designed to simulate human-like conversations and provide automated responses to user queries or prompts.
@@ -53,9 +54,9 @@ const Home = () => {
 
           <div className='section_right'>
             <div className='company_info'>
-              <img src='img/light-logo.png' alt="" />
+              <img src='img/light-logo.png'  alt="" />
               <p className='fn__animated_text'>
-              CryptoHopper an AI-driven bot that makes crypto trading accessible, fun, and worthwhile for everyone. We pursue perfection , Work hard Learn every day, Join forces with our amazing team. And grow rapidly Together we optimize and innovate a bot that hosts mors than Nine Million transactions worth an estimated 2 billion USD each Month ...!!
+              CryptoBot an AI-driven bot that makes crypto trading accessible, fun, and worthwhile for everyone. We pursue perfection , Work hard Learn every day, Join forces with our amazing team. And grow rapidly Together we optimize and innovate a bot that hosts mors than Nine Million transactions worth an estimated 2 billion USD each Month ...!!
               </p>
               <hr />
               <div className='fn__members'>

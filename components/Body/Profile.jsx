@@ -25,7 +25,7 @@ const Profile = ({ setActiveComponent, notifyError, notifySuccess }) => {
             <div className="techwave_fn_user_profile">
               <div className="user__profile">
                 <div className="user_avatar">
-                  <img src={userDetails?.image ||
+                  <img className='invert' src={userDetails?.image ||
                   "img/crypto.png"} alt=""/>
                 </div>
 

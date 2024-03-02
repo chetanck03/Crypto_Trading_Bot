@@ -49,17 +49,27 @@ a.fn__like {
     text-overflow: ellipsis
 }
 
+img{
+    filter: invert(1);
+}
+
+.revert{
+    filter: invert(0);
+}
+
+
+
 :root {
-    color-scheme: dark;
-    --techwave-site-bg-color: #0f0e11;
-    --techwave-header-bg-color: #17151b;
-    --techwave-some-r-bg-color: #17151b;
-    --techwave-some-a-bg-color: #2b2830;
-    --techwave-heading-color: #c0bcca;
-    --techwave-body-color: #7e7a86;
-    --techwave-border-color: #312e37;
-    --techwave-button-bg-color: #1c1925;
-    --techwave-hover-color: #fff;
+    color-scheme: light;
+    --techwave-site-bg-color: #fff;
+    --techwave-header-bg-color: #f5f5f5;
+    --techwave-some-r-bg-color: #f5f5f5;
+    --techwave-some-a-bg-color: #e7e7e7;
+    --techwave-heading-color: #333;
+    --techwave-body-color: #444;
+    --techwave-border-color: #ddd;
+    --techwave-button-bg-color: #f5f5f5;
+    --techwave-hover-color: #000
     --techwave-heading-font-family: 'Heebo', sans-serif;
     --techwave-body-font-family: 'Work Sans', sans-serif;
     --techwave-left-panel-width: 300px;
@@ -587,10 +597,11 @@ frenify_typing span {
 (min-device-pixel-ratio:1.1),
 (min-resolution:120dpi) {
     .retina_logo {
-        display: block
+        display: block;
+        filter: invert(1);
     }
     .desktop_logo {
-        display: none
+        display: none;
     }
 }
 
@@ -736,7 +747,8 @@ frenify_typing span {
 .techwave_fn_leftpanel .group__list .icon .fn__svg {
     width: 16px;
     height: 16px;
-    display: block
+    display: block;
+    filter: invert(1);
 }
 
 .techwave_fn_leftpanel .group__list .text {
@@ -1083,6 +1095,7 @@ frenify_typing span {
 }
 
 .fn__nav_bar .user_opener img {
+    filter: revert;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -1627,6 +1640,7 @@ a.fn__like.has__like .full__like {
 }
 
 .techwave_fn_interactive_list .icon .fn__svg {
+    filter: revert;
     width: 50px;
     height: 50px;
     display: block
@@ -4074,6 +4088,7 @@ a.fn__like.no_border .fn__svg {
 
 .techwave_fn_user_profile .user__profile .user_avatar img {
     width: 100%;
+    filter: revert;
     height: 100%;
     object-fit: cover;
     aspect-ratio: 1/1;
